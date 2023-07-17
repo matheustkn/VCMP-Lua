@@ -346,7 +346,6 @@ void RegisterVCMPCallbacks() {
 							EventManager::cancelEvent();
 							break;
 						}
-						return;
 					}
 				}
 				catch (sol::error e) {
